@@ -1,0 +1,31 @@
+{
+  "name": "hubot-uptime-robot",
+  "description": "A hubot script that shows the status of all Uptime Robot Monitors",
+  "version": "1.0.0",
+  "author": "Mark Hemmings <mark@fitgurus.com>",
+  "license": "MIT",
+  "keywords": "hubot, hubot-scripts, uptime",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fitgurus/hubot-uptime-robot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itgurus/hubot-uptime-robot/issues"
+  },
+  "dependencies": {
+    "easy-table": "^1.0.0"
+  },
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+  "devDependencies": {
+    "hubot": "2.x",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "true"
+  }
+}
