@@ -47,9 +47,9 @@ module.exports = (robot) ->
           status = switch monitor.status
             when '0' then 'Paused'
             when '1' then 'Not Checked Yet'
-            when '2' then 'Up'
+            when '2' then 'UP'
             when '8' then 'Seems Down'
-            when '9' then 'Down'
+            when '9' then 'DOWN'
 
           t.cell 'Name', monitor.friendlyname
           t.cell 'Status', status

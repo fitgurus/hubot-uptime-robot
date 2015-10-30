@@ -1,7 +1,7 @@
 {
   "name": "hubot-uptime-robot",
   "description": "A hubot script that shows the status of all Uptime Robot Monitors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Mark Hemmings <mark@fitgurus.com>",
   "license": "MIT",
   "keywords": "hubot, hubot-scripts, uptime",
