@@ -4,6 +4,10 @@ A hubot script that shows the status of all Uptime Robot Monitors.
 
 See [`src/uptimerobot.coffee`](src/uptimerobot.coffee) for full documentation.
 
+## Configuration
+
+Add the Uptime Robot account API key with the environment variable `HUBOT_UPTIMEROBOT_APIKEY`
+
 ## Installation
 
 In hubot project repo, run:
